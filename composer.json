@@ -1,0 +1,26 @@
+{
+    "name": "subjective-php/io",
+    "description": "Contains classes that provide basic file and directory support.",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "chadicus/coding-standard": "^1.7",
+        "phpunit/phpunit": "^6.1",
+        "satooshi/php-coveralls": "^2.0"
+    },
+    "config" : {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "SubjectivePHP\\IO\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SubjectivePHPTest\\IO\\": "tests"
+        }
+    }
+}
